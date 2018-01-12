@@ -1,5 +1,5 @@
 import java.util.*;
-//modifica 2 su branch evoluzione
+//modifica 3 su branch evoluzione
 public class Persona 
 {
 
@@ -62,7 +62,7 @@ public class Persona
 	public String chiSei()
 	{
 		String risposta;
-		risposta="Sono un persona di nome "+nome+" sesso: "+sesso+ " et‡: "+eta+" professione: "+professione;
+		risposta="Sono un persona di nome "+nome+" sesso: "+sesso+ " et√†: "+eta+" professione: "+professione;
 		return risposta;
 	}
 	
@@ -80,7 +80,7 @@ public class Persona
 		 System.out.println("Inserisci il sesso (M o F)");
 		 sessoStringa=tastiera.nextLine();
 		 sesso=sessoStringa.charAt(0);
-		 System.out.println("Inserisci l'et‡");
+		 System.out.println("Inserisci l'et√†");
 		 eta=tastiera.nextInt();
 		 tastiera.nextLine(); //ripulisce buffer input
 		 System.out.println("Inserisci la professione");
