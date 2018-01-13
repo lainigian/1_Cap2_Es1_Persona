@@ -1,6 +1,6 @@
 import java.util.*;
 
-//modifica 6 di Gianni2 su branch master
+//modifica 7 di Gian su branch master
 
 public class Persona 
 {
